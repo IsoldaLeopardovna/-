@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    background-image: url("fon_main.png");
+}
+
+header, footer {
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 8px;
+}
+
+header {
+    background-color: #365631;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    }
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #365631;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #365631;
+}
+
+article {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 4px solid #365631;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+input,
+textarea,
+button {
+    border-radius: 4px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+}
+
+#about input, #pr input, #d input {
+    width: 100%;
+}
+
+#pr input, #d input {
+    width: 70%;
+}
+
+button {
+    border: none;
+    background-color: #365631;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #274024;
+}
+
+footer {
+    background-color: #333;
+    margin-top: 20px;
+}
