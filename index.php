@@ -23,35 +23,35 @@
     </nav>
     
     <main>
-        <section id="about">
+        <section id="section_about">
             <h2>О себе</h2>
-            <input type="text" placeholder="Напишите что-нибудь о себе" required>
+            <input id="about" type="text" placeholder="Напишите что-нибудь о себе">
             <button type="submit">Сохранить</button>
         </section>
      
-        <section id="projects">
+        <section id="section_projects">
             <h2>Мои проекты</h2>
             <article>
-                <h3 id="pr">Проект: <input type="text" placeholder="Название проекта">  <button type="submit">Сохранить</button></h3>
+                <h3>Проект: <input id="projects" type="text" placeholder="Название проекта"> <button type="submit">Сохранить</button></h3>
                 <br>
-                <h3 id="d">Описание: <input type="text" placeholder="Описание проекта">  <button type="submit">Сохранить</button></h3>
+                <h3>Описание: <input id="discribe" type="text" placeholder="Описание проекта">  <button type="submit">Сохранить</button></h3>
                 <br>
-                <h3>Файл: <input type="file">  <button type="submit">Добавить</button></h3>
+                <h3>Файл: <input id="file" type="file">  <button type="submit">Добавить</button></h3>
             </article>
         </section>
        
-        <section id="contact">
+        <section id="section_contact">
             <h2>Связаться со мной</h2>
-            <form action="#" method="post">
+            <form id="form1" action="#" method="post">
 
-                <label>Имя:</label>
-                <input type="text" required>
+                <label for="name">Имя:</label>
+                <input id="name" autocomplete="on" type="text" required>
 
-                <label>Email:</label>
-                <input type="email" required>
+                <label for="email">Email:</label>
+                <input id="email" autocomplete="on" type="email" required>
 
-                <label>Сообщение:</label>
-                <textarea name="message" rows="4" required></textarea>
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
 
                 <button type="submit">Отправить</button>
             </form>
